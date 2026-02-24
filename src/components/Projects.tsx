@@ -17,8 +17,8 @@ const projects = [
   {
     title: "Automated Pill Dispenser",
     icon: Pill,
-    desc: "A smart automated pill dispensing system that schedules and dispenses medications on time, ensuring accurate dosage and improving patient adherence.",
-    tags: ["IoT", "Healthcare", "Automation"],
+    desc: "An AI-based smart healthcare device that automatically dispenses medicines at scheduled times with alerts. Uses microcontrollers, sensors, and AI to monitor usage patterns, ensure accurate dosage, and improve medication adherence for elderly patients.",
+    tags: ["AI/ML", "IoT", "Healthcare", "Embedded Systems"],
   },
 ];
 
