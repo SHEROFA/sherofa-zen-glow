@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Utensils, Heart, Pill } from "lucide-react";
+import { Utensils, Heart, Pill, Brain } from "lucide-react";
 
 const projects = [
   {
@@ -19,6 +19,12 @@ const projects = [
     icon: Pill,
     desc: "An AI-based smart healthcare device that automatically dispenses medicines at scheduled times with alerts. Uses microcontrollers, sensors, and AI to monitor usage patterns, ensure accurate dosage, and improve medication adherence for elderly patients.",
     tags: ["AI/ML", "IoT", "Healthcare", "Embedded Systems"],
+  },
+  {
+    title: "Emotion Recognition & Analysis",
+    icon: Brain,
+    desc: "An AI-powered system that detects and interprets human emotions from facial expressions, voice tone, text, and body language using ML and deep learning. Applied in customer service, healthcare, education, and human-computer interaction.",
+    tags: ["AI/ML", "Deep Learning", "Computer Vision", "NLP"],
   },
 ];
 
