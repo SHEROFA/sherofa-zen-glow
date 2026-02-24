@@ -33,6 +33,9 @@ const Hero = () => {
             <a href="#projects" className="glass-card px-6 py-3 rounded-full font-medium text-foreground hover:scale-105 transition-transform">
               View Projects
             </a>
+            <a href="/resume.pdf" download className="glass-card px-6 py-3 rounded-full font-medium text-foreground hover:scale-105 transition-transform inline-flex items-center gap-2">
+              📄 Resume
+            </a>
           </div>
         </motion.div>
 
