@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Utensils, Heart } from "lucide-react";
+import { Utensils, Heart, Pill } from "lucide-react";
 
 const projects = [
   {
@@ -13,6 +13,12 @@ const projects = [
     icon: Heart,
     desc: "An AI-powered organ donor–recipient matching platform with real-time compatibility analysis, streamlining the life-saving process.",
     tags: ["AI/ML", "Healthcare", "Real-time System"],
+  },
+  {
+    title: "Automated Pill Dispenser",
+    icon: Pill,
+    desc: "A smart automated pill dispensing system that schedules and dispenses medications on time, ensuring accurate dosage and improving patient adherence.",
+    tags: ["IoT", "Healthcare", "Automation"],
   },
 ];
 
